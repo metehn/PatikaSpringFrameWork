@@ -5,12 +5,11 @@ import lombok.*;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Named;
 
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
 @Builder
-@Data
+
 @Named(value = "namedtuto")
 @ApplicationScoped
 public class _01_Named {
