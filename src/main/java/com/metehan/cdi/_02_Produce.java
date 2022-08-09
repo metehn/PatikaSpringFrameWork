@@ -10,10 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@Getter
-@Setter
-@Builder
-@Data
 @Named(value = "producedtuto")
 @ApplicationScoped
 public class _02_Produce {
