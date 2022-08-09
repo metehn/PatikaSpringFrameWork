@@ -3,6 +3,7 @@ package com.metehan.cdi;
 import lombok.*;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 
 @Data
