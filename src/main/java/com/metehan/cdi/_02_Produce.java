@@ -14,6 +14,7 @@ import java.util.List;
 @ApplicationScoped
 public class _02_Produce {
 
+
     @Produces
     public List<String> getList(){
         List<String> list = new ArrayList<>();
