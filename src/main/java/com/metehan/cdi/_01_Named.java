@@ -15,6 +15,7 @@ import javax.inject.Named;
 @ApplicationScoped
 public class _01_Named {
 
+
     private Long namedId;
     private String namedData = "_01_Named";
 
